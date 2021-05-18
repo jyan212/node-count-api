@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "A restful api for object detection - testing env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "npm start"
+  },
+  "author": "Tan Jun Yan",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.6.1",
+    "express": "^4.17.1",
+    "get-image-data": "^5.0.0",
+    "jimp": "^0.16.1"
+  },
+  "engines": {
+    "node": "14.16.1"
+  }
+}
